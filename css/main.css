@@ -91,6 +91,11 @@ body {
   font-weight: var(--fw-800);
 }
 
+.blog-title:hover {
+  cursor: pointer;
+  color: var(--pclr-yellow);
+}
+
 .blog-description {
   font-size: 1rem;
   color: var(--nclr-grey);
