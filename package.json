@@ -2,13 +2,17 @@
   "name": "blog-preview-card",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://luinrandir.github.io/blog-preview-card/"
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "prettier": "^3.2.4",
     "stylelint": "^16.2.0",
     "stylelint-config-standard": "^36.0.0",
