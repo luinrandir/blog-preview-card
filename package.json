@@ -2,7 +2,7 @@
   "name": "blog-preview-card",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://luinrandir.github.io/blog-preview-card/"
+  "homepage": "https://luinrandir.github.io/blog-preview-card/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
